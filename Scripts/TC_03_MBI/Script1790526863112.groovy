@@ -1,4 +1,5 @@
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
@@ -25,6 +26,8 @@ WebUI.waitForElementVisible(heading, 60, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementText(heading, 'Temukan solusi finansial yang sesuai dengan kebutuhan Anda', FailureHandling.STOP_ON_FAILURE)
 
+WebUI.takeScreenshot('Screenshots/TC_03_MBI_01_Homepage.png')
+
 WebUI.waitForElementClickable(bukaTabungan, 30, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(bukaTabungan)
@@ -34,6 +37,8 @@ WebUI.waitForPageLoad(60)
 WebUI.waitForElementVisible(registeredQuestion, 60, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementText(registeredQuestion, 'Sebelum memulai, apakah Anda telah terdaftar sebagai nasabah Maybank?', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.takeScreenshot('Screenshots/TC_03_MBI_02_Buka_Tabungan.png')
 
 WebUI.navigateToUrl('https://www.maybank.co.id/')
 
@@ -53,6 +58,8 @@ WebUI.delay(3)
 
 WebUI.waitForElementClickable(maybankLogo, 30, FailureHandling.STOP_ON_FAILURE)
 
+WebUI.takeScreenshot('Screenshots/TC_03_MBI_03_Ajukan_Pinjaman.png')
+
 WebUI.click(maybankLogo)
 
 WebUI.waitForPageLoad(60)
@@ -60,5 +67,7 @@ WebUI.waitForPageLoad(60)
 WebUI.waitForElementVisible(heading, 60, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementText(heading, 'Temukan solusi finansial yang sesuai dengan kebutuhan Anda', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.takeScreenshot('Screenshots/TC_03_MBI_04_Back_Homepage.png')
 
 WebUI.closeBrowser()
