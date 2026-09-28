@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_01_MBI_Page</name>
+   <tag></tag>
+   <comment></comment>
+   <origin>WEB_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0ddf6d0d-dfaf-4978-a04f-e2e69bc5e57b</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>677d4e22-9e6d-47bb-a26c-99aada5a41ea</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/TD_001</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>677d4e22-9e6d-47bb-a26c-99aada5a41ea</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>ContactNo</value>
+      <variableId>b93e0276-343a-4570-9837-3b80fc40cc2d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b93e0276-343a-4570-9837-3b80fc40cc2d</id>
+      <masked>false</masked>
+      <name>textAlert</name>
+   </variable>
+</TestCaseEntity>

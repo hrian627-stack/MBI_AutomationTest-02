@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_PROMO</name>
+   <tag></tag>
+   <elementGuidId>aa547c01-7ce1-4730-bf49-28442d875d70</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' top-nav-link ')]//*[(name() = 'a') and (position() = 2)]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.top-nav-link a:nth-child(2)</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;PROMO&quot;s]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>d5fae604-74b7-4244-8dd3-41efc7d0993d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/id/others/promotions?categoryId={C8AE2649-C159-401A-9127-F0BFA2EF4B99}&amp;categoryTitle=M2U</value>
+      <webElementGuid>33be3f4b-f425-4d12-83aa-cac0e600df07</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>PROMO</value>
+      <webElementGuid>c00c7598-7c06-4a83-be23-fed1baf35d05</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-a3588af3b86884f78e47a91cf1980320</value>
+      <webElementGuid>dbf59d88-fd86-4fa1-917e-865c3258f3c3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' top-nav-link ')]//*[(name() = 'a') and (position() = 2)]</value>
+      <webElementGuid>502924b8-ffed-497f-ba5e-0fc8f8e3ddfe</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' top-nav-link ')]//*[(name() = 'a') and (position() = 2)]</value>
+      <webElementGuid>2aa2f104-ddf4-460c-b67a-c9334bdf1110</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/id/others/promotions?categoryId={C8AE2649-C159-401A-9127-F0BFA2EF4B99}&amp;categoryTitle=M2U' and (text() = 'PROMO' or . = 'PROMO')]</value>
+      <webElementGuid>67243eb7-abd2-4b94-9723-898881090447</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

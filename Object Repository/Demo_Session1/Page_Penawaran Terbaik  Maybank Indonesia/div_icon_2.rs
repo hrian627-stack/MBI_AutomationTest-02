@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_icon_2</name>
+   <tag></tag>
+   <elementGuidId>6d5ceb20-087b-4585-8f7c-e2fc63717ced</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' tab-handle ') and (position() = 3)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' icon ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.tab-handle:nth-child(3) .icon</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;E-BANKING&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>b8adf6d2-8a84-41b5-b4b3-44c01ed2d7da</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon</value>
+      <webElementGuid>0305b477-39b0-4b40-8722-24f8ecbc0640</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-839f70fe63185a67afa4bec038f743a5</value>
+      <webElementGuid>9308ae46-6492-4a19-a7ac-8a79639d9e09</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' tab-handle ') and (position() = 3)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' icon ')]</value>
+      <webElementGuid>89d1a417-6408-40c6-b48e-5a3b8a02f6d0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' tab-handle ') and (position() = 3)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' icon ')]</value>
+      <webElementGuid>3f8e30a6-a15b-41f0-8f6b-54f3c9ae3b68</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
